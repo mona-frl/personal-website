@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    font-weight: 700;
+    margin: 50px auto 0 auto;
+    color: #80b9cc;
+}
+
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: #80b9ccb7;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    color: #80b9ccc7;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+
+}
+
+.bottom-container a,
+.bottom-container p {
+    color: rgb(225, 229, 247);
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+
+.bottom-container a:hover {
+    color: #40514E;
+}
+
+/* content text */
+.what-i-am {
+    margin: 0 auto 100px auto;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 6px dotted;
+    border-color: #b0e8fba9;
+    width: 5%;
+}
+
+/* divs */
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #cde3f0;
+}
+
+.mid-container {
+    background-color: aliceblue;
+}
+
+.bottom-container {
+    padding: 30px;
+    background-color: #7fc0e6;
+}
+
+
+/* content */
+
+.skill-row {
+    margin: 30px auto 80px auto;
+    text-align: left;
+    padding: 30px;
+    width: 50%;
+}
+
+.contact-me {
+    padding-bottom: 30px;
+}
+
+
+.btn {
+    background-color: #7fc0e6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: #40514E;
+}
+
+/* images */
+.cloud {
+    position: absolute;
+}
+
+.cloud-top {
+    right: 350px;
+    top: 50px;
+}
+
+.cloud-bottom {
+    left: 350px;
+    top: 300px;
+}
+
+.alpaca {
+    margin-top: 40px;
+}
+
+.design-programming {
+    float: left;
+    margin: 23px 30px auto auto;
+}
+
+.coxinha {
+    float: right;
+    margin: 23px auto auto 30px;
+}
