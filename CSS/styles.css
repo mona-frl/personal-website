@@ -175,6 +175,10 @@ hr {
     .mountain {
         width: 60%;
     }
+}
 
-
+@media (max-width: 756px) {
+    .top-container, .middle-container {
+        padding: 3% 5%;
+    }
 }
