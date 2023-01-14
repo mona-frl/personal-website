@@ -3,7 +3,6 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
-    overflow-x: hidden;
 }
 
 h1 {
@@ -13,7 +12,6 @@ h1 {
     margin: 50px auto 0 auto;
     color: #80b9cc;
 }
-
 
 h2 {
     font-family: 'Lora', serif;
@@ -33,7 +31,12 @@ a {
 
 p {
     line-height: 2;
+    text-align: justify;
+}
 
+.contact-me p,
+.footer {
+    text-align: center;
 }
 
 .bottom-container a,
@@ -62,17 +65,19 @@ hr {
     border-top: 6px dotted;
     border-color: #b0e8fba9;
     width: 5%;
+    margin: 30px auto 50px;
 }
 
 /* divs */
 .top-container {
     position: relative;
-    padding-top: 100px;
+    padding: 5% 5% 0;
     background-color: #cde3f0;
 }
 
 .mid-container {
     background-color: aliceblue;
+    padding: 3% 15%;
 }
 
 .bottom-container {
@@ -86,8 +91,15 @@ hr {
 .skill-row {
     margin: 30px auto 80px auto;
     text-align: left;
-    padding: 30px;
-    width: 50%;
+    padding: 0 30px ;
+}
+
+.skill-row-right {
+    text-align: right;
+}
+
+.skill-row-right p {
+    text-align: right;
 }
 
 .contact-me {
@@ -126,8 +138,12 @@ hr {
     top: 300px;
 }
 
+.mountain {
+    width: 30%;
+}
+
 .alpaca {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .design-programming {
@@ -138,4 +154,24 @@ hr {
 .coxinha {
     float: right;
     margin: 23px auto auto 30px;
+}
+
+
+
+@media (max-width: 900px) {
+    .cloud-top {
+        right: 400px;
+        top: 20px;
+    }
+
+    .cloud-bottom {
+        left: 400px;
+        top: 300px;
+    }
+
+    .mountain {
+        width: 80%;
+    }
+
+
 }
