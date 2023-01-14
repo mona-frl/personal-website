@@ -159,18 +159,21 @@ hr {
 
 
 @media (max-width: 900px) {
+    .cloud {
+        width: 25%;
+    }
     .cloud-top {
-        right: 400px;
-        top: 20px;
+        right: 3%;
+        top: 10%;
     }
 
     .cloud-bottom {
-        left: 400px;
-        top: 300px;
+    left: 3%;
+    top: 50%;
     }
 
     .mountain {
-        width: 80%;
+        width: 60%;
     }
 
 
